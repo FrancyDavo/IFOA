@@ -27,7 +27,7 @@ import android.widget.Toast;
 import java.util.ArrayList;
 import java.util.Arrays;
 
-
+//corsi post diploma
 public class CorsiPostDiploma extends ActionBarActivity
         implements NavigationDrawerFragment.NavigationDrawerCallbacks {
     ListView myListView;
