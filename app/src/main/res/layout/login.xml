@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/white">
+
+    <EditText
+        android:id="@+id/editTextUserNameToLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:hint="User Name"
+        android:ems="10" >
+
+        <requestFocus/>
+    </EditText>
+
+    <EditText
+        android:id="@+id/editTextPasswordToLogin"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="25dp"
+        android:layout_marginLeft="25dp"
+        android:ems="10"
+        android:inputType="textPassword"
+        android:hint="Password" />
+
+    <Button
+        android:id="@+id/buttonSignIn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="40dp"
+        android:background="?android:selectableItemBackground"
+        android:text="ACCEDI"
+        android:textSize="20sp"
+        android:textColor="@color/BlueIfoa"/>
+
+    <Button
+        android:id="@+id/buttonSignUp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:background="?android:selectableItemBackground"
+        android:text="Non sei registrato? REGISTRATI"
+        android:textSize="12sp"
+        android:textColor="@color/BlueIfoa"/>
+
+</LinearLayout>

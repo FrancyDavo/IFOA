@@ -1,0 +1,12 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.mobile.ifoa_justasolution.HomePageActivity"
+   >
+    <item android:id="@+id/action_example"
+        android:title="Login"
+        android:icon="@drawable/ic_action_person"
+        android:showAsAction="always"
+        app:showAsAction="always"/>
+
+</menu>
